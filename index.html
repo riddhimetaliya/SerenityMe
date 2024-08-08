@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Grey+Qo&family=Gwendolyn:wght@400;700&family=Inter&family=Oswald:wght@200..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet" />
+    <!-- ICONS -->
+    <title>SerenityMe&mdash;Mental Wellness</title>
+  </head>
+  <body>
+    <header class="header">
+      <!-- logo -->
+      <img
+        src="Images/SerenityMe-logo-bg.png"
+        alt="SerenityMe-logo"
+        class="logo" />
+      <!-- navigation -->
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a href="index.html" class="main-nav-link">Home</a></li>
+          <li><a href="blog.html" class="main-nav-link">Blog</a></li>
+          <li>
+            <a href="resources.html" class="main-nav-link">Resources</a>
+          </li>
+          <li><a href="aboutus.html" class="main-nav-link">About us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- hero description -->
+    <div class="hero-description">
+      <p>
+        <i
+          >Your
+          <div class="trusted">TRUSTED</div>
+          guide to Mental Health</i
+        >
+      </p>
+      <!-- hero images -->
+    </div>
+    <div class="series-img grid grid--3--cols container">
+      <div class="hero-img-box">
+        <img
+          src="Images/hero-img-3.jpg"
+          alt="A Lady sitting"
+          class="hero-img" />
+      </div>
+      <div class="hero-img-box">
+        <img
+          src="Images/Hero-img-2.jpg"
+          alt="A Lady sitting"
+          class="hero-img" />
+      </div>
+      <div class="hero-img-box">
+        <img
+          src="Images/hero-img-3.jpg"
+          alt="A Lady sitting"
+          class="hero-img" />
+      </div>
+      <div class="hero-img-box">
+        <img
+          src="Images/Hero-img-2.jpg"
+          alt="A Lady sitting"
+          class="hero-img" />
+      </div>
+    </div>
+    <!-- learn more button -->
+    <div class="more-btn btn--outline">
+      <button>Learn more &rarr;</button>
+    </div>
+    <!-- Featured section
+      -->
+    <section class="section-featured container">
+      <section class="container">
+        <h2 class="heading-featured-in">AS FEATURED IN</h2>
+        <div class="logos">
+          <img src="Images/Featured/techcrunch.png" alt="techcrunch logo" />
+          <img
+            src="Images/Featured/business-insider.png"
+            alt="business insider" />
+          <img
+            src="Images/Featured/the-new-york-times.png"
+            alt="the new york times" />
+          <img src="Images/Featured/forbes.png" alt="forbes logo" />
+          <img src="Images/Featured/usa-today.png" alt="usa today logo" />
+        </div>
+      </section>
+      <section class="section-ourmission">
+        <div class="ourmission-letters">
+          <p>OUR MISSION</p>
+        </div>
+        <div class="grid grid--3--cols our-mission">
+          <div class="mission">
+            <img
+              src="Images/Gallery/mission-1.jpg"
+              alt="Mission-img"
+              class="mission-img" />
+            <p>Making mental health care accessible to all.</p>
+            <img
+              src="Images/Gallery/mission-2.jpg"
+              alt="Mission-img"
+              class="mission-img" />
+            <p>Fostering mental wellness through care and community.</p>
+            <img
+              src="Images/Gallery/mission-3.jpg"
+              alt="Mission-img"
+              class="mission-img" />
+            <p>Supporting mental health with empathy and understanding</p>
+            <img
+              src="Images/Gallery/mission-2.jpg"
+              alt="Mission-img"
+              class="mission-img" />
+            <p>Nurturing mental wellness with inclusive support.</p>
+            <img
+              src="Images/Gallery/mission-5.jpg"
+              alt="Mission-img"
+              class="mission-img" />
+            <p>Empowering mental health with accessible support.</p>
+            <img
+              src="Images/Gallery/mission-3.jpg"
+              alt="Mission-img"
+              class="mission-img" />
+            <p>Creating safe spaces for mental health and healing</p>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section class="stection-cta" id="cta">
+      <div class="container-cta">
+        <div class="cta">
+          <div class="cta-text-box">
+            <h2 class="heading-secondary">Get your first meal for free</h2>
+            <p class="cta-text">
+              Healthy, tasty and hassle-free meals are waiting for you. Start
+              eating well today. You can cancel or pause anytime. And the first
+              meal is on us!
+            </p>
+
+            <form class="cta-form" name="sign-up" netlify>
+              <div>
+                <label for="full-name">Full Name</label>
+                <input
+                  id="full-name"
+                  type="text"
+                  placeholder="xyz abc"
+                  name="full-name"
+                  required />
+              </div>
+
+              <div>
+                <label for="email">Email Address</label>
+                <input
+                  id="email"
+                  type="email"
+                  placeholder="me@example.com"
+                  name="email"
+                  required />
+              </div>
+
+              <div>
+                <label for="select-where">Where did you hear from us??</label>
+                <select name="select-where" required>
+                  <option value="">Please choose one value</option>
+                  <option value="friends">Friends and Family</option>
+                  <option value="Youtube">Youtube</option>
+                  <option value="Google">Google</option>
+                  <option value="Podcast">Podcast</option>
+                  <option value="Facebook">Facebook</option>
+                </select>
+              </div>
+
+              <button class="btn btn--form">Sign up now</button>
+            </form>
+      </div>
+    </section>
+  </body>
+</html>

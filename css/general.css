@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: 1;
+  font-family: "Abril Fatface", sans-serif;
+  font-weight: 400;
+  color: #333;
+  overflow-x: hidden;
+  background-color: #fdffe7;
+}
+
+.container {
+  max-width: 200rem;
+  margin: 3.4rem auto;
+}
+
+/* HERO DESCRIPTION */
+
+.hero-description {
+  text-align: center;
+  margin-top: 3.2rem;
+  margin-bottom: 4.4rem;
+  padding: 2.2rem 0;
+  font-family: "Abril Fatface", sans-serif;
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+.trusted {
+  color: palevioletred;
+}
+
+/* HERO IMAGE */
+
+.hero-img-box {
+  max-width: 50rem;
+  margin: 0 4.4.rem;
+  padding: 4.8rem 0 3.2rem 0;
+}
+
+.hero-img {
+  width: 70%;
+  border-radius: 50%;
+}
+
+/* GRID TEMPLATE */
+
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+
+.grid--2--cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3--cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4--cols {
+  grid-template-columns: repeat(4, 1fr);
+}
