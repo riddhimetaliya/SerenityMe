@@ -59,7 +59,14 @@
 /* IMAGE IN SERIES */
 .series-img {
   display: flex;
-  padding-left: 9.6rem;
+}
+
+.hero-img-box {
+  overflow: hidden;
+}
+
+.hero-img:hover {
+  transition: all 0.3s;
 }
 
 /* LEARN MORE BTN */
@@ -72,7 +79,7 @@ button {
   border: none;
   background-color: #a8e7ab;
   font-family: "Abril Fatface", sans-serif;
-  padding: 12px 28px;
+  padding: 10px 28px;
   font-size: 3.2rem;
   border-radius: 4.4rem;
   margin-bottom: 2.4rem;
@@ -220,14 +227,6 @@ button:hover {
   margin-bottom: 4.8rem;
 }
 
-/* .cta-img-box {
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  border-radius: 0%;
-  padding-top: 6.2rem;
-} */
-
 .btn--form {
   font-size: 2.4rem;
   margin-top: 3.2rem;
@@ -267,4 +266,67 @@ button:hover {
 .cta *:focus {
   outline: none;
   box-shadow: 0 0 0 0.8rem rgba(111, 113, 112, 0.5);
+}
+
+/* *********** */
+/* OUR BLOGS */
+/* *********** */
+
+.blog-heading {
+  align-items: center;
+  text-align: center;
+  font-size: 3.2rem;
+  color: #1a241b;
+  padding-top: 4.4rem;
+}
+
+.section-blog {
+  display: grid;
+  margin: 4.4rem 4.4rem;
+}
+
+.blog-post {
+  display: flex;
+  font-size: 2rem;
+  text-align: center;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+
+.blog-1 {
+  border: solid #456d47;
+  border-radius: 9%;
+  color: #4a4a4a;
+  padding: 2.2rem;
+  margin: 2.2rem 4.4rem;
+  justify-content: space-around;
+}
+
+.blog-1 a {
+  text-decoration: none;
+  color: #4a4a4a;
+}
+
+.blog-1 h3 {
+  font-size: 3.4rem;
+  margin-bottom: 2.2rem;
+  text-align: center;
+  color: #456d47;
+}
+
+.blog-1 a:hover {
+  color: #000;
+}
+
+.blog-1:hover {
+  background-color: #dbf4c7b3;
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+  transform: translateY(-1.2rem);
+}
+
+/* arrow */
+.arrow-icon {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
