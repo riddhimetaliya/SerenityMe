@@ -1,0 +1,42 @@
+/* ************ */
+/* BLOF SECTION */
+/* ************ */
+
+.blog-post-heading {
+  align-items: center;
+  text-align: center;
+  font-size: 4rem;
+  color: palevioletred;
+  margin-top: 9.6rem;
+}
+
+.blog-post {
+  display: grid;
+  gap: 2.4rem;
+  padding: 3.4rem;
+}
+
+.section-blog {
+  overflow: hidden;
+  color: #222;
+  text-align: center;
+  border: solid #456d47;
+  padding: 2.2rem;
+  margin: 2.2rem 4.4rem;
+  border-radius: 15%;
+}
+
+.blog-title {
+  font-size: 3.4rem;
+  margin-bottom: 2.2rem;
+  text-align: center;
+  color: #456d47;
+}
+
+.blog-post-img {
+  width: 100%;
+  border-radius: 10%;
+  margin-bottom: 2.2rem;
+  justify-content: center;
+  align-items: center;
+}
