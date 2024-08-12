@@ -26,16 +26,27 @@
 }
 
 .resources-h1 {
-  color: #456d47;
   font-size: 3rem;
   padding-bottom: 1rem;
   text-align: center;
 }
 
 .resources p {
+  font-size: 1.8rem;
   padding-bottom: 1rem;
 }
 
 .resources li {
   padding-bottom: 1.2rem;
+}
+
+.helpline-no-img {
+  background-image: linear-gradient(to right bottom, #1a3d1c, #50a955);
+  border: 8px solid #000;
+  opacity: 70%;
+  /* background-color: #d87093; */
+}
+
+.helpline-no h3 {
+  color: #000;
 }

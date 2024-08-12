@@ -40,3 +40,21 @@
   justify-content: center;
   align-items: center;
 }
+
+.blog-btn {
+  align-items: center;
+  text-align: center;
+  font-size: 1.9rem;
+  width: 80%;
+  padding: 10px 0;
+  margin-top: 2.4rem;
+}
+
+.btn-icon {
+  display: flex;
+}
+
+.heart-icon {
+  width: 50%;
+  margin-top: 3.8rem;
+}

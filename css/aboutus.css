@@ -1,0 +1,27 @@
+.aboutus-page {
+  margin-top: 6.9rem 3.4rem 6.9rem 3.4rem;
+}
+
+.aboutus img {
+  width: 70%;
+  border: 9px solid #0e3610;
+}
+
+.aboutus-page h3 {
+  align-items: center;
+  text-align: center;
+  font-size: 2.2rem;
+  padding-top: 4.4rem;
+}
+
+.aboutus {
+  margin-top: 9.6rem;
+}
+
+.aboutus-heading {
+  color: palevioletred;
+  font-size: 4rem;
+  margin: 9.6rem 0 4.4rem 0;
+  align-items: center;
+  text-align: center;
+}
