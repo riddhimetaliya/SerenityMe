@@ -10,7 +10,7 @@
   margin-top: 9.6rem;
 }
 
-.blog-post {
+.blog-posts {
   display: grid;
   gap: 2.4rem;
   padding: 3.4rem;
@@ -23,7 +23,7 @@
   border: solid #456d47;
   padding: 2.2rem;
   margin: 2.2rem 4.4rem;
-  border-radius: 15%;
+  border-radius: 70px;
 }
 
 .blog-title {

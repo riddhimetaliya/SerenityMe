@@ -58,17 +58,27 @@
   color: #75b178;
 }
 
+/* MOBILE NAVIGATION */
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
+
 /* IMAGE IN SERIES */
 .series-img {
   display: flex;
-}
-
-.hero-img-box {
-  overflow: hidden;
-}
-
-.hero-img:hover {
-  transition: all 0.3s;
 }
 
 /* LEARN MORE BTN */
@@ -82,8 +92,8 @@ button {
   background-color: #a8e7ab;
   font-family: "Abril Fatface", sans-serif;
   padding: 10px 20px;
-  font-size: 3.2rem;
-  border-radius: 4.4rem;
+  font-size: 2.6rem;
+  border-radius: 20px;
   margin-bottom: 2.4rem;
 }
 
@@ -113,9 +123,9 @@ button:hover {
 /* *************** */
 /* FEATURED SECTION */
 /* *************** */
-.section-featured {
-  padding: 4.8rem 0 3.2rem 0;
-}
+/* .section-featured {
+  padding: 4rem 0 3.2rem 0;
+} */
 
 .heading-featured-in {
   font-size: 1.4rem;
@@ -198,7 +208,8 @@ button:hover {
 /* *********** */
 
 .section-cta {
-  padding: 4.8rem 0 12.8rem 0;
+  /* padding: 4.8rem 0 12.8rem 0; */
+  padding-top: 4.4rem;
 }
 
 .container-cta {
@@ -339,11 +350,11 @@ button:hover {
 }
 
 /* arrow */
-.arrow-icon {
+/* .arrow-icon {
   width: 100%;
   align-items: center;
   justify-content: center;
-}
+} */
 
 /* **************** */
 /*AREA OF EXPERTIES */
@@ -383,9 +394,8 @@ button:hover {
 /* **************** */
 
 .footer {
-  padding: 12.8rem 0;
+  padding: 12.8rem 4.8rem;
   border-top: 1px solid #000;
-  padding: 0 4.8rem;
 }
 
 .grid-footer {

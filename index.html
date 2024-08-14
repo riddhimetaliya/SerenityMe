@@ -6,6 +6,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/queries.css" />
     <!-- META DESCRIPTION -->
      <meta name="description" content="Discover a haven of support, resources, and community designed to help you navigate your mental health journey. At SerenityMe, we understand the complexities of mental health challenges and are here to provide you with the tools and guidance you need to achieve peace and well-being.
      ">
@@ -22,6 +23,7 @@
     <!-- ICONS -->
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script defer src="script.js"></script>
     <title>SerenityMe&mdash;Mental Wellness</title>
   </head>
   <body>
@@ -42,8 +44,15 @@
           <li><a href="aboutus.html" class="main-nav-link">About us</a></li>
         </ul>
       </nav>
+
+      <!-- mobile navigation -->
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
     </header>
     <!-- hero description -->
+     <div class="section-hero">
     <div class="hero-description">
       <p>
         <i
@@ -53,9 +62,10 @@
         >
       </p>
       <!-- hero images -->
+       <main>
     </div>
-    <div class="series-img  grid--3--cols container">
-      <div class="hero-img-box">
+    <div class="series-img grid grid--3--cols container">
+      <div class="hero-img-box container">
         <img
           src="Images/hero-img-3.jpg"
           alt="A Lady sitting"
@@ -73,21 +83,16 @@
           alt="A Lady sitting"
           class="hero-img" />
       </div>
-      <div class="hero-img-box">
-        <img
-          src="Images/Hero-img-2.jpg"
-          alt="A Lady sitting"
-          class="hero-img" />
-      </div>
     </div>
+  </div>
     <!-- learn more button -->
     <div class="more-btn btn--outline">
       <button> <a href="aboutus.html">Learn more &rarr;</a></button>
     </div>
     <!-- Featured section
       -->
-    <section class="section-featured container">
-      <section class="container">
+    <section class=" container">
+      <section class=" section-featured">
         <h2 class="heading-featured-in">AS FEATURED IN</h2>
         <div class="logos">
           <img src="Images/Featured/techcrunch.png" alt="techcrunch logo" />
@@ -143,7 +148,7 @@
       </section>
     </section>
     <!-- CALL TO ACTION SECTION -->
-    <section class="stection-cta" id="cta">
+    <section class="section-cta" id="cta">
       <div class="container-cta">
         <div class="cta">
           <div class="cta-text-box">
@@ -192,10 +197,10 @@
       </div>
     </section>
     <!-- BLOG SECTION -->
-     <section class="section-blog">
+     <section class="section-blog container">
       <h2 class="blog-heading">OUR BLOGS</h2>
-      <div class="blog-post container grid--3--cols">
-        <ion-icon name="arrow-back-outline" class="arrow-icon"></ion-icon>
+      <div class="blog-post container grid grid--3--cols">
+        <!-- <ion-icon name="arrow-back-outline" class="arrow-icon"></ion-icon> -->
         <div class="blog-1">
           <a href="blog.html"><h3>ABUSE</h3>
             <p>Abuse is a harmful act where one person controls or harms another, causing emotional, physical, or psychological damage. Recognizing and addressing it is essential to protect and support victims, promoting dignity and safety for all.</p>
@@ -211,7 +216,7 @@
             <p>Bipolar disorder is a mental health condition characterized by extreme mood swings, including episodes of mania and depression. Recognizing and managing the disorder is essential for maintaining stability and improving quality of life.</p>
          </a>
         </div>
-        <ion-icon name="arrow-forward-outline" class="arrow-icon"></ion-icon>
+        <!-- <ion-icon name="arrow-forward-outline" class="arrow-icon"></ion-icon> -->
       </div>
      <!-- </section>
    <section class="section-vid ">
@@ -251,6 +256,7 @@
       <a href="#">ADHD</a>
     </div>
    </section>
+  </main>
 <!-- FOOTER -->
 <footer class="footer">
   <div class="container grid grid-footer">

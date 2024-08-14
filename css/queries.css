@@ -1,0 +1,276 @@
+/* *************** */
+/* BELOW 1388PX (SMALLER DESKTOP) */
+/* *************** */
+
+@media (max-width: 87em) {
+  .header {
+    max-width: 120rem;
+  }
+
+  .hero-description {
+    font-size: 2.8rem;
+  }
+
+  .series-img {
+    max-width: 120rem;
+  }
+
+  .hero-img {
+    width: 70%;
+  }
+
+  .more-btn {
+    font-size: 1.2rem;
+  }
+
+  .section-blog {
+    max-width: 120rem;
+  }
+
+  .blog-1 h3 {
+    font-size: 2.4rem;
+  }
+}
+
+/* ***************** */
+/* BELOW 1200PX (LANDSCAPE TABLETS) */
+/* ***************** */
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .logo {
+    height: 250px;
+  }
+
+  .section-blog {
+    max-width: 120rem;
+  }
+
+  .blog-post {
+    max-width: 120rem;
+    font-size: 1.2rem;
+    gap: 0;
+  }
+
+  .btn-icon {
+    width: 80%;
+  }
+}
+
+/* ************** */
+/* BELOW 940PX (TABLETS) */
+/* ************** */
+
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+
+  .mission-img {
+    height: 150px;
+  }
+
+  .section-cta {
+    max-width: 100rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
+  .area-of-experties {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .resources-page {
+    max-width: 120rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .helpline-no-img {
+    max-width: 30%;
+  }
+
+  .btn-mobile-nav {
+    display: block;
+    z-index: 9999;
+  }
+
+  .main-nav {
+    background-color: #fdffe7;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+
+    /* hide the navigation */
+    /* allows no transitions here */
+    /* display: none; */
+
+    /* 1) hide it visually */
+    opacity: 0;
+
+    /* 2) make it unaccessable to mouse and keyboard */
+    pointer-events: none;
+
+    /* 3) hid it from screen readers */
+    visibility: hidden;
+  }
+
+  .nav-open .main-nav {
+    opacity: 1;
+    position: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  .main-nav-list {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  .main-nav-link:visited,
+  .main-nav-link:link {
+    font-size: 4rem;
+  }
+}
+
+/* ***************** */
+/* BELOW 835px (SMALLER TABLETS) */
+/* ***************** */
+
+@media (max-width: 44em) {
+  .blog-post {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .series-img {
+    max-width: 100%;
+  }
+
+  .logos img {
+    height: 2rem;
+  }
+
+  .cta-form {
+    font-size: 1rem;
+    grid-template-columns: 1fr;
+    /* width: 100%; */
+  }
+
+  .ribbon-img {
+    height: 250px;
+    align-self: center;
+  }
+
+  .blog-post {
+    max-width: 100rem;
+    grid-template-columns: repeat(2fr, 1fr);
+  }
+
+  .grid-footer {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+/* ************* */
+/* BELOW 544PX (MOBILE PHONES) */
+/* ************* */
+
+@media (max-width: 34em) {
+  .grid {
+    row-gap: 4.8rem;
+  }
+
+  .logo {
+    height: auto;
+    width: 20rem;
+  }
+
+  .series-img {
+    column-gap: 0;
+  }
+
+  button {
+    padding: 1.6rem;
+  }
+
+  .more-btn a {
+    font-size: 1.6rem;
+  }
+
+  .mission {
+    max-width: 100rem;
+  }
+
+  .section-cta {
+    max-width: 100rem;
+    padding: 5rem;
+  }
+
+  .container-cta {
+    font-size: 1.2rem;
+  }
+
+  .blog-heading {
+    align-items: center;
+    padding: 0 15rem 0 1rem;
+  }
+
+  .blog-post {
+    margin: 0 25rem 0 3rem;
+    grid-template-columns: 1fr;
+  }
+
+  .experties-heading {
+    margin-right: 26rem;
+  }
+
+  .area-of-experties {
+    max-width: 50rem;
+    margin-right: 35rem;
+  }
+
+  .areas a {
+    padding: 0;
+    font-size: 1.6rem;
+  }
+
+  .grid-footer {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .blog-posts {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .blog-title {
+    font-size: 2.6rem;
+  }
+
+  .aboutus {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .aboutus-img {
+    justify-self: center;
+  }
+}
